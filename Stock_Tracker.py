@@ -1,8 +1,8 @@
 import streamlit as st
-import yfinance as yf
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 import pandas as pd
+import yfinance as yf
 
 # Function to fetch stock data
 def get_stock_data(stock_symbol, start_date, end_date):
